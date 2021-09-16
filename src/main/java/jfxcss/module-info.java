@@ -1,4 +1,5 @@
 module jfxcss.example {
-	exports jfxcss.example;
-	requires javafx.controls;
+  exports jfxcss.example;
+
+  requires transitive javafx.controls;
 }
