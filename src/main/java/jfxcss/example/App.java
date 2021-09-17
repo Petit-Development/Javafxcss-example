@@ -1,6 +1,8 @@
 package jfxcss.example;
 
 import java.net.URL;
+
+import fr.brouillard.oss.cssfx.CSSFX;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
@@ -10,6 +12,7 @@ import javafx.stage.Stage;
 public class App extends Application {
 
   public void start(Stage stage) {
+    var s = CSSFX.start();
     Pane rootPane = new Pane();
     addStyleSheet(rootPane);
 
