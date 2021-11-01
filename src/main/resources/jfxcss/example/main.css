@@ -2,6 +2,11 @@
 	-fx-background-color: blue;
 }
 
-.root Rectangle {
-	-fx-fill: red;
+.primary {
+	-fx-fill: orange;
+}
+
+.secondary {
+	fx-fill: green;
+
 }
