@@ -1,12 +1,21 @@
 .root {
-	-fx-background-color: blue;
+  -fx-background-color: blue;
+}
+
+Rectangle {
+  -fx-stroke: green;
+  -fx-stroke-width: 5;
 }
 
 .primary {
-	-fx-fill: orange;
+  -fx-fill: orange;
+
 }
 
 .secondary {
-	fx-fill: green;
+  -fx-fill: yellow;
+}
 
+#title {
+  -fx-fill: gray;
 }
