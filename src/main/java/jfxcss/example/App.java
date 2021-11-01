@@ -17,16 +17,18 @@ public class App extends Application {
     Pane rootPane = new FlowPane();
     addStyleSheet(rootPane);
 
-    Scene scene = new Scene(rootPane, 500, 200);
+    Scene scene = new Scene(rootPane, 600, 200);
     Rectangle rec1 = new Rectangle(100, 100);
     Rectangle rec2 = new Rectangle(100, 100);
     Rectangle rec3 = new Rectangle(100, 100);
     Rectangle rec4 = new Rectangle(100, 100);
+    Rectangle rec5 = new Rectangle(100, 100);
 
     rec2.getStyleClass().add("primary");
     rec3.getStyleClass().add("secondary");
-    rec4.setId("title");
-    rootPane.getChildren().addAll(rec1, rec2, rec3, rec4);
+    rec4.getStyleClass().add("primary");
+    rec5.setId("title");
+    rootPane.getChildren().addAll(rec1, rec2, rec3, rec4, rec5);
     stage.setScene(scene);
 
     stage.show();
